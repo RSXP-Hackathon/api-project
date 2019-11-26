@@ -4,7 +4,7 @@ var router  = express.Router();
 // Require controller modules.
 var mentor_controller = require("../controllers/mentorController");
 
-// User routes.
+// Mentor routes.
 router.get('/', mentor_controller.list);
 router.post('/', mentor_controller.create);
 router.get('/:id', mentor_controller.find);

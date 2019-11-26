@@ -4,7 +4,7 @@ var router  = express.Router();
 // Require controller modules.
 var company_controller = require("../controllers/companyController");
 
-// User routes.
+// Company routes.
 router.get('/', company_controller.list);
 router.post('/', company_controller.create);
 router.get('/:id', company_controller.find);
