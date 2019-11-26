@@ -6,6 +6,7 @@ var router  = express.Router();
 // Require controller modules.
 var user_routes = require("./userRoutes");
 var company_routes = require("./companyRoutes");
+var mentor_routes = require("./mentorRoutes");
 
 // Default route.
 router.get('/', function(req, res){
@@ -17,6 +18,9 @@ router.use('/user', user_routes);
 
 // Company routes.
 router.use('/company', company_routes);
+
+// Mentor routes.
+router.use('/mentor', mentor_routes);
 
 // Error route.
 router.get("*", function(req, res){
