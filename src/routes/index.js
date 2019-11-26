@@ -8,6 +8,7 @@ var user_routes = require("./userRoutes");
 var company_routes = require("./companyRoutes");
 var mentor_routes = require("./mentorRoutes");
 var event_routes = require("./eventRoutes");
+var module_routes = require("./moduleRoutes");
 
 // Default route.
 router.get('/', function(req, res){
@@ -25,6 +26,9 @@ router.use('/mentor', mentor_routes);
 
 // Mentor routes.
 router.use('/event', event_routes);
+
+// Module routes.
+router.use('/module', module_routes);
 
 // Error route.
 router.get("*", function(req, res){

@@ -71,7 +71,7 @@ exports.delete= function(req, res) {
         if (err){
             res.json({'success': false, 'msg': 'Erro ao excluir o evento.'});
         } else {
-            res.json({'success': true, 'msg':'Empresa excluída com sucesso.'});
+            res.json({'success': true, 'msg':'Evento excluída com sucesso.'});
         }
     });
 }
