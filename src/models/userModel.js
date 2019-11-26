@@ -3,7 +3,10 @@ var mongoose = require('mongoose');
 var userSchema = mongoose.Schema({
     name: String,
     email: String,
-    phone: String
+    phone: String,
+    city: String,
+    uf: String,
+    avatar: String
  });
 
  var User = mongoose.model("User", userSchema);
