@@ -4,7 +4,7 @@ var router  = express.Router();
 // Require controller modules.
 var module_controller = require("../controllers/moduleController");
 
-// User routes.
+// Module routes.
 router.get('/', module_controller.list);
 router.post('/', module_controller.create);
 router.get('/:id', module_controller.find);

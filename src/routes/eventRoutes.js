@@ -4,7 +4,7 @@ var router  = express.Router();
 // Require controller modules.
 var event_controller = require("../controllers/eventController");
 
-// User routes.
+// Event routes.
 router.get('/', event_controller.list);
 router.post('/', event_controller.create);
 router.get('/:id', event_controller.find);
