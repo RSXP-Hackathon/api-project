@@ -1,6 +1,26 @@
-# NODEjs base API
+# Eleva.ml
 
-More description soon...
+Projeto de desenvolvimento da API back-end da plataforma ELEVA.ml
+
+## Objetivo 
+
+O objetivo desta API é trazer funcionalidades específicas para o front-end tanto web quanto mobile, trazendo interatividade entre os elementos do sistema.
+
+## A Eleva
+
+A Eleva é uma plataforma que conecta empresas e mentores para ensinar tecnologia à jovens de todo o Brasil. A proposta da Eleva é focada em 3 stakeholders:
+
+- Empresas parceiras ajudam no desenvolvimento de eventos de tecnologia através de patrocínio, mentorias e conteúdo. 
+
+- Mentores distribuídos por todo o Brasil ajudam jovens a ter o primeiro contato com o mundo da tecnologia.
+
+- Alunos do ensino médio tem acesso gratuito a cursos, mentoria e oportunidades em estágio e emprego em tecnologia.
+
+## Tecnologias utilizadas
+
+- NodeJS
+- MongoDB
+- ExpressJS
 
 # The MIT License (MIT)
 
